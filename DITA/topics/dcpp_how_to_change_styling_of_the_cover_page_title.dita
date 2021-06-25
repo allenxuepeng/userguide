@@ -15,9 +15,9 @@
     <body>
         <p>Match the front page title element in your <xref href="dcpp_the_customization_css.dita"
         >customization CSS</xref> based on its class
-      attribute:<codeblock outputclass="language-css">*[class ~= "front-page/front-page-title" {
+      attribute:<codeblock outputclass="language-css"><?oxy_comment_start author="allenxuepeng" timestamp="20210625T102935+0000" comment="A right square bracket of &quot;]&quot; is missing in the example code. "?>*[class ~= "front-page/front-page-title" {
   margin-top: 1in;  
   font-size: 3em;
-}</codeblock></p>
+}<?oxy_comment_end?></codeblock></p>
     </body>
 </topic>
